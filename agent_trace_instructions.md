@@ -4,13 +4,14 @@ Please submit the complete agent trace for the work you did on this challenge as
 
 Include every session you used for this challenge, including sessions in which you planned, coded, debugged, or reviewed the solution. If you used more than one agent harness, include traces from each one. Keep the original files and folder structure where practical; do not convert JSONL, SQLite, or other structured logs into screenshots or summaries.
 
-> **“Cloud Code” note:** These instructions assume you mean **Claude Code**. If you meant Google Cloud Code or another product, use its own session export and include the product and version in your submission note.
-
 ## Before you start
 
 1. Finish the session(s) you intend to submit, then quit the app or CLI before copying its files. This helps ensure logs are written completely.
 2. Create a temporary folder named `agent-trace` somewhere easy to find, such as your Desktop. Copy only the relevant trace files into it. Keep each tool in its own subfolder, for example `agent-trace/claude-code/` and `agent-trace/codex/`.
-3. Include the session files for this challenge, not your entire home directory or application-data folder.
+3. **Identify which session files belong to this challenge** (do not copy your entire home directory or application-data folder):
+   - **By project folder name:** Tools like Claude Code and Cursor group transcripts under a folder named after your checkout path (for example, containing `hackerrank-orchestrate-october26`).
+   - **By `workspace.json`:** VS Code (Copilot), Cursor, and Windsurf `workspaceStorage/<workspace-hash>/` folders contain a `workspace.json` file showing the workspace path.
+   - **By timestamp or repo path in the trace:** Tools like Codex, Antigravity, OpenCode, and Windsurf Cascade store sessions globally or by date — check the date folder, file modification time, `opencode session list`, or search the trace file for your repository path to pick only the sessions from this challenge.
 4. Review the staged files before sharing. Traces can contain source code, local file paths, prompts, tool arguments and output, screenshots, and other private information. Remove or redact secrets (API keys, tokens, passwords, cookies, private keys), personal information, and material you are not allowed to share. Do not include authentication files, settings, or credentials.
 5. Zip the `agent-trace` folder using your operating system’s built-in archive tool. Name the result `agent-trace.zip`.
 
