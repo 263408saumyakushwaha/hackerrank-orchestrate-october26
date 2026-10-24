@@ -99,7 +99,7 @@ Place the exported files in `agent-trace/opencode/`. If the CLI is unavailable a
 
 ## Other Harnesses
 
-If you used an agent harness or coding tool that is not listed above (for example, Cursor, Windsurf, GitHub Copilot, Aider, Goose, RooCode, Cline, Devin, Factory, or JetBrains Junie):
+If you used an agent harness or coding tool that is not listed above (for example, Aider, Goose, RooCode, Cline, Devin, Factory, or JetBrains Junie):
 
 1. **Finish and quit the session** so all logs and session files are completely written to disk.
 2. **Create a tool subfolder** inside `agent-trace/` named after the harness (for example, `agent-trace/cursor/`, `agent-trace/windsurf/`, `agent-trace/copilot/`, `agent-trace/aider/`, or `agent-trace/goose/`).
