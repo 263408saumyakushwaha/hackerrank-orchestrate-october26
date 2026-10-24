@@ -71,7 +71,7 @@ Within the relevant conversation folder, the transcript is at:
 
 Copy the complete `<conversation-id>` folder(s) for this challenge to `agent-trace/antigravity/`. Do not copy the entire `.gemini` directory: it may contain unrelated data. Antigravity CLI’s `last_conversations.json` is a session lookup cache, not the transcript itself.
 
-## OpenCode (opencode)
+## OpenCode
 
 OpenCode stores session and message data in a local SQLite database. Its default application-data directory is:
 
